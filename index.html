@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+  <meta charset="utf-8"/>
+    <title>akanite page</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script scr="akanite.js"></script>
+  </head>
+  <body>
+    <h1>Find your Akan name</h1>
+    <p>Akan names are derived from Ghanian culture where children are given their first name as a 'day name' which corresponds to the day in the week they were born.<br>
+      You can use this website to find your Akan mame too!</p>
+      <p>All you have to do is input your birthday, gender, hit the submit button and voila!! You get your Akan name too.</P>
+  </body>
+  <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <div class="content">
+                        </div>
+                        <div id="result">
+                            <div id="error" class="response">
+                            </div>
+                            <form>
+                                <div class="form-row">
+                                  <p>Please selct your date of birth:</p>
+                                        <label for="dd"><b>Date</b></label>
+                                        <input type="number" class="form-control" id="dd" placeholder="1" min="1" max="31" required="">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label for="mm"><b>Month</b></label>
+                                      <select class="form-control" id="mm">
+                                            <option>--Select--</option>
+                                            <option>Jan</option>
+                                            <option>Feb</option>
+                                            <option>Mar</option>
+                                            <option>Apr</option>
+                                            <option>May</option>
+                                            <option>Jun</option>
+                                            <option>Jul</option>
+                                            <option>Aug</option>
+                                            <option>Sep</option>
+                                            <option>Oct</option>
+                                            <option>Nov</option>
+                                            <option>Dec</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3">
+                                        <label for="yy"><b>Year</b></label>
+                                        <input type="number" class="form-control" id="yy" placeholder="2021" min="1" max="2021" required="">
+                                    </div>
+                                <div class="form-group">
+                                  <p>Please select your gender:</p>
+                                    <label class="label">Gender</label>
+                                    <div class="rdio rdio-default">
+                                        <input type="radio" name="gender" id="male" value="Male">
+                                        <label for="male">&nbsp;&nbsp;<b>Male</b></label>
+                                    </div>
+                                    <div class="radio radio-default">
+                                        <input type="radio" name="gender" id="female" value="Female">
+                                        <label for="female">&nbsp;&nbsp;<b>Female</b></label>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <button type="submit" onclick="generateAkonNameFromInput(); return false;" class="btn btn-primary btn-xs">
+                                        &nbsp;&nbsp;Submit
+                                    </button>
+                    </div>
+  <script scr="js/akanite.js"></script>
+</html>
