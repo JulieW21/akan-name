@@ -1,0 +1,31 @@
+body {
+  background-color: blue;
+}
+h1 {
+    font-size: 34px;
+    font-family: 'serif;
+    text-align: center;
+    padding-top: 5%;
+}
+p {
+    font-size: 16px;
+}
+form {
+    width: 92%;
+    height: 45%;
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.calendar {
+    padding-top: 5%;
+}
+.radio {
+    position: relative;
+}
+.radio label {
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 7px !important;
+}
