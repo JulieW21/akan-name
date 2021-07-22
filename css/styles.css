@@ -1,0 +1,18 @@
+h1 {
+  color: pink;
+}
+body {
+  background: grey;
+  font-size: 30px;
+}
+form {
+  color: pink;
+  padding: 20px;
+  float: right;
+}
+class label1{
+  size: 40px;
+}
+#container {
+  background-clor: white;
+}
